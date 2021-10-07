@@ -2,7 +2,7 @@
     display: grid;
     grid-template-columns: repeat(4, 100px);
     }
-    
+
     .cal-button > button {
        border-radius: 20px;
        margin: 4px;
@@ -12,3 +12,10 @@
    .span2{
     grid-column: span 2;
    } 
+
+   .cal-screen{
+      height: 15px;
+      padding-left: 10px;
+      margin-bottom: 20px;
+      font-size: x-large;
+   }
