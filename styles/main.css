@@ -1,0 +1,14 @@
+.cal-button {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    }
+
+    .cal-button > button {
+       border-radius: 20px;
+       margin: 4px;
+    }
+
+
+   .span2{
+    grid-column: span 2;
+   } 
