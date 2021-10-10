@@ -27,7 +27,7 @@ class BasicCalculator {
 
     sanitise(num1, num2) {
         if (isNaN(num1) || isNaN(num2)) {
-           throw "Not a valid number"
+           throw "Numbers are not valid"
         }
     }
 
